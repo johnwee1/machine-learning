@@ -1,0 +1,16 @@
+## Machine learning
+
+### A place to park my attempts at learning ML with sklearn and others
+
+Currently learning the ropes for machine learning, how to clean data and basically how to get a model up and running. For now i'm not so focused on trying to understand the nitty gritty of the underlying estimators available, but i'm definitely trying to learn how to set up pipelines / kfolding just for basic predictions.
+datasets are installed from kaggle.
+
+Quick start notes for future me
+---
+
+1) Create a venv in the cd after cloning with ```python3 -m venv .venv``` and activate the venv using source or otherwise
+2) pip install requirements.txt
+3) create ipython kernel if necessary with ```python3 -m ipykernel install --user --name=PROJECT_NAME```
+4) start jupyter by running ```jupyter notebook```
+5) copy the URL in jupyter notebook and paste it in vscode for it to detect kernel from localhost, or locate the python executable from within bin
+
